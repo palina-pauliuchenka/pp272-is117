@@ -1,0 +1,26 @@
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+p.quote {
+    padding-left: 26px;
+}
+
+p.error {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+footer {
+    padding-top: 12px;
+}
+
+body.speakerPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
