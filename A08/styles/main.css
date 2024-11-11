@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 16px;
+}
+
+header {
+    display: flex;
+}
+
+header > img {
+    display: block;
+    margin-right: 2rem;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+h2 {
+    color: brown;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+div.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.brand > h3 {
+    font-style: italic;
+}
+
+div.brand h3 > span {
+    text-shadow: 1px 1px brown;
+}
+
+p.quote {
+    padding-left: 26px;
+    max-width: 700px;
+}
+
+p.error {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul {
+    padding-left: 3rem;
+}
+
+footer {
+    text-align: center;
+    padding-top: 12px;
+}
+
+body.speakerPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
